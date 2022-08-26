@@ -1,0 +1,10 @@
+[package]
+name = "wgpu-perf-compute"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winit = "0.27.2"
+wgpu = "0.13.1"
+pollster = "0.2.5"
+bytemuck = { version = "1.12.1", features = ["derive"]}
